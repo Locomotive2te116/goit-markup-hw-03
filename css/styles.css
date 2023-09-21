@@ -1,14 +1,14 @@
-/* основний колір/SLATE / #434455; */
-/* другорядний колір тексту//NAVY BLUE/#2E2F42;*/
-/* білий WHITE color: #FFFFFF;*/
-/* Accent Синий IRIS color: #4D5AE5;*/
-/* футер CLOUD color: #F4F4FD; */
-/* основний фон background: #E5E5E5; */
-/* другорядний фон NAVY BLUEbackground #2E2F42*/
+/* основной цвет текста/SLATE /#434455/ /
+/ вторичный цвет текста//NAVY BLUE/#2E2F42;/
+/ белый WHITE color: #FFFFFF;/
+/ Accent Синий IRIS color: #4D5AE5;/
+/ футер CLOUD color: #F4F4FD; /
+/ основной фон background: #E5E5E5; /
+/ вторичный фон NAVY BLUEbackground #2E2F42*/
 
 :root {
 
-    /* Fonts */
+  /* Fonts */
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
   /* Colors */
@@ -25,22 +25,64 @@
   --accent-bg-color: #4d5ae5;
   --hover-bg-color: #404bbf;
 }
-
 body {
   background-color: var(--section-bg-color);
   color: var(--primary-text-color);
   font-family: var(--primary-font);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-family: 'Roboto', sans-serif;
+
+}
+.heder-navigation {
+  display: flex;
+  margin-right: auto;
+
+
+}
+.header-box{
+  display: flex;
+}
+/* Hero */
+.hero {
+  background-color: var(--secondary-bg-color);
+  
+
+}
+.hero-info{
+  padding-top: 188px;
+  padding-bottom: 188px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.hero-box {
+   outline: solid red;
+
 }
 /* Title1 */
 .hero-title {
+  
   font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.12px;
   line-height: 1.07;
   text-align: center;
   color: var(--white-text-color);
   letter-spacing: 0.02em;
-  font-weight: 700;
+  
+  
+  display: flex;
+  max-width: 496px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 48px;
+ 
+
 }
 /* Title2 */
 .title {
@@ -77,6 +119,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display:inline-block;
+
+  
 }
 .logo-part {
   color: var(--title-text-color);
@@ -90,6 +138,19 @@ body {
 .list-item {
   background-color: var(--section-bg-color);
 }
+.site-nav {
+  display: flex;
+  gap: 40px;
+  
+
+
+}
+.item{
+  padding-top: 24px;
+    padding-bottom: 24px;
+    display: inline-block;
+}
+
 .site-nav .link {
   line-height: 1.5;
   color: var(--title-text-color);
@@ -97,6 +158,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
+  
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -106,34 +168,41 @@ body {
   text-decoration: none;
 }
 /* Address */
+.contacts-list{
+  display: flex;
+  gap:40px;
+
+}
 .address {
   font-style: normal;
+  
+
 }
-.contacs {
-  color: var(--primary-text-color);
+.contacts {
+   color: var(--primary-text-color);
+   padding-top: 24px;
+   padding-bottom: 24px;
+   display: inline-block;
 }
-.contacs:hover,
-.contacs:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--hover-text-color);
 }
-/* Hero */
-.hero {
-  background-color: var(--secondary-bg-color);
-}
+
 /* Section */
-    .section {
-        background-color: var(--section-bg-color);
-    }
+  .section {
+    background-color: var(--section-bg-color);
+  }
 
-    .section-accent {
-        background-color: var(--cloud-bg-color);
-    }
+  .section-accent {
+    background-color: var(--cloud-bg-color);
+  }
 
-    .section-secondary {
-        background-color: var(--secondary-bg-color);
-    }
+  .section-secondary {
+    background-color: var(--secondary-bg-color);
+  }
 
-    /* Button */
+  /* Button */
 .button {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
@@ -147,6 +216,14 @@ body {
 .button.primary {
   color: var(--white-text-color);
   background-color: var(--accent-bg-color);
+  align-items: center;
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -162,10 +239,10 @@ body {
   background-color: var(--hover-bg-color);
 }
 /* Footer */
-    .footer-text {
-        color: var(--cloud-text-color);
-    }
+  .footer-text {
+    color: var(--cloud-text-color);
+  }
 
-    .footer-bg {
-        background-color: var(--secondary-bg-color);
-    } 
+  .footer-bg {
+    background-color: var(--secondary-bg-color);
+  }
