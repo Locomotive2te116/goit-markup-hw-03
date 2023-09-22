@@ -320,7 +320,7 @@ body {
   .footer-text {
     color: var(--cloud-text-color);
     width: 264px;
-    padding-top: 17px;
+    margin: 16px;
   }
 
   .footer-bg {
