@@ -248,6 +248,7 @@ body {
 }
 .benefits {
   padding-top: 120px;
+  padding-bottom: 120px;
   
       
 }
@@ -264,7 +265,7 @@ body {
 
 .product{
   padding-bottom: 120px;
-  padding-top: 120px;
+  
 }
 .product-title{
   max-width: 323px;
