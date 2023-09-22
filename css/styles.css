@@ -85,12 +85,13 @@ body {
 }
 /* Title2 */
 .title {
-  line-height: 1.11;
+  line-height: 40px;
+  /*line-height: 1.11;*/
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
