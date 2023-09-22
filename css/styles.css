@@ -293,7 +293,26 @@ body {
   gap: 24px;
   
 }
- 
+ /*PORTFOLIO*/
+ .portfolio-nav{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 96px;
+ }
+
+  .product-nav{
+    display: flex;
+    gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px; 
+  padding-top: 72px;   
+  }
+  .product-card {
+    width: calc((100% - 48px) / 3);
+  }
+
 
 
 /* Footer */
