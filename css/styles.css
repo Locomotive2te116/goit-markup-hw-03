@@ -35,7 +35,8 @@ body {
 
 }
 .header {
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
+  /*border: 1px solid #e7e9fc*/
 }
 .heder-navigation {
   display: flex;
@@ -158,6 +159,7 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--hover-text-color);
+  border: 1px solid #e7e9fc;
 }
 .link {
   text-decoration: none;
@@ -231,15 +233,19 @@ body {
 .button.primary:hover,
 .button.primary:focus {
   background-color: var(--hover-bg-color);
+  border: 1px solid #e7e9fc;
+  border: 1px solid transparent;
 }
 .button.secondary {
   color: var(--accent-text-color);
   background-color: var(--cloud-bg-color);
+  padding: 12px 24px;
 }
 .button.secondary:hover,
 .button.secondary:focus {
   color: var(--white-text-color);
   background-color: var(--hover-bg-color);
+  border: 1px solid transparent;
 }
 
 /* Title3 */
@@ -314,6 +320,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  border: 1px solid #e7e9fc; 
   
  }
 
