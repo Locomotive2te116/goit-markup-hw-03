@@ -344,7 +344,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px; 
-  border: 1px solid  var(--CORNFLOWER, #E7E9FC);
+ /* border: 1px solid  var(--CORNFLOWER, #E7E9FC);*/
 
   }
   .product-card {
